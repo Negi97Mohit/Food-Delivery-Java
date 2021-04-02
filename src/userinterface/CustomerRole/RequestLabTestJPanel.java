@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author raunak
+ * @author Mohit
  */
 public class RequestLabTestJPanel extends javax.swing.JPanel {
 

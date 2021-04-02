@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author jshar
+ * @author Mohit
  */
 public class AddDeliveryMan extends javax.swing.JPanel {
 

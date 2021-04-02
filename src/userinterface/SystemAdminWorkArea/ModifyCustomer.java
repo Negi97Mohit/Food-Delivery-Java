@@ -19,7 +19,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author jshar
+ * @author Mohit
  */
 public class ModifyCustomer extends javax.swing.JPanel {
 

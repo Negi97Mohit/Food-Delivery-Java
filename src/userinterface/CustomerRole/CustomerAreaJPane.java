@@ -23,7 +23,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author raunak
+ * @author Mohit
  */
 public class CustomerAreaJPane extends javax.swing.JPanel {
 

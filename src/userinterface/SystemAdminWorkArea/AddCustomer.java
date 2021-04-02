@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author jshar
+ * @author Mohit
  */
 public class AddCustomer extends javax.swing.JPanel {
 
