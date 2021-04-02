@@ -13,7 +13,7 @@ import Business.Order.OrderDirectory;
 import Business.Restaurant.RestaurantDirectory;
 import Business.UserAccount.UserAccount;
 import javax.swing.JPanel;
-import userinterface.DeliveryManRole.DeliveryManWorkAreaJPane;
+import userinterface.DeliveryManRole.DeliveryManWorkAreaJPanel;
 
 /**
  *
@@ -25,7 +25,7 @@ public class DeliverManRole extends Role {
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, EcoSystem business, 
             CustomerDirectory customerDirectory, RestaurantDirectory restaurantDirectory, 
             DeliveryManDirectory deliveryManDirectory, MenuDirectory menuDirectory, OrderDirectory orderDirectory) {
-        return new DeliveryManWorkAreaJPane(userProcessContainer,account,business, deliveryManDirectory, orderDirectory);//To change body of generated methods, choose Tools | Templates.
+        return new DeliveryManWorkAreaJPanel(userProcessContainer,account,business, deliveryManDirectory, orderDirectory);//To change body of generated methods, choose Tools | Templates.
     }
     
 }

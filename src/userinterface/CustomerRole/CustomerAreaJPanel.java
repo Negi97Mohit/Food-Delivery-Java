@@ -25,7 +25,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author Mohit
  */
-public class CustomerAreaJPane extends javax.swing.JPanel {
+public class CustomerAreaJPanel extends javax.swing.JPanel {
 
     private JPanel userProcessContainer;
     private EcoSystem ecoSystem;
@@ -39,7 +39,7 @@ public class CustomerAreaJPane extends javax.swing.JPanel {
     /**
      * Creates new form DoctorWorkAreaJPanel
      */
-    public CustomerAreaJPane(JPanel userProcessContainer, UserAccount account, EcoSystem ecoSystem, 
+    public CustomerAreaJPanel(JPanel userProcessContainer, UserAccount account, EcoSystem ecoSystem, 
             CustomerDirectory customerDirectory, RestaurantDirectory restaurantDirectory, 
             DeliveryManDirectory deliveryManDirectory, MenuDirectory menuDirectory, OrderDirectory orderDirectory) {
         initComponents();

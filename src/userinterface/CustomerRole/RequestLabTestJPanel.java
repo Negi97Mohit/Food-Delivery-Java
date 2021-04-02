@@ -91,7 +91,7 @@ public class RequestLabTestJPanel extends javax.swing.JPanel {
         userProcessContainer.remove(this);
         Component[] componentArray = userProcessContainer.getComponents();
         Component component = componentArray[componentArray.length - 1];
-        CustomerAreaJPane dwjp = (CustomerAreaJPane) component;
+        CustomerAreaJPanel dwjp = (CustomerAreaJPanel) component;
         dwjp.populateRequestTable();
         CardLayout layout = (CardLayout)userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
